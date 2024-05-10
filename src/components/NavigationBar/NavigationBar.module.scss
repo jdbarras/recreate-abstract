@@ -1,0 +1,51 @@
+.root {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 22px;
+  padding: 1.2rem 6.5rem;
+  justify-content: space-between;
+
+  button {
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+    padding: 14px;
+    transition: all .3s;
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  svg {
+    width: 130px;
+  }
+}
+
+.title {
+  border-left: 2px solid white;
+  margin-left: 12px;
+  padding: 0 12px;
+}
+
+.outline-button {
+  outline: none;
+  border: 1px solid white;
+  background-color: var(--dark-gray);
+  margin-right: 16px;
+}
+
+.filled-button {
+  background-color: var(--purpleish);
+  border-color: var(--purpleish);
+  
+  &:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+  }
+
+}
